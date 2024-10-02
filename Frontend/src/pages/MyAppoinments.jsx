@@ -1,8 +1,21 @@
+import { useContext } from "react"
+import { AppContext } from "../context/AppContext"
 
 
 const MyAppoinments = () => {
+
+  const {doctors} = useContext(AppContext)
+  
   return (
-    <div>MyAppoinments</div>
+    <div>
+      <p>My Appoinments</p>
+      <hr />
+      <div>
+        {
+
+        }
+      </div>
+    </div>
   )
 }
 
